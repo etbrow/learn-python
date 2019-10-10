@@ -38,7 +38,7 @@ def subtractBeans():
                         showMessageBox("There are " + str(numberOfBeans) + " beans left.")
                         numberOfBeans -= otherTurn()
                         if numberOfBeans == 0:
-                                showMessageBox("\nThe other player has won.");
+                                showMessageBox("\nThe other player has won.")
                         else:
                                 showMessageBox("There are " + str(numberOfBeans) + "beans left.\n")
 
