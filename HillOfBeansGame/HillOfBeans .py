@@ -28,7 +28,7 @@ while True:
 			print("There are ", total, " beans left.")
 			total -= otherTurn()
 			if total == 0:
-				print("\nThe other player has won.");
+				print("\nThe other player has won.")
 				break
 			else:
 				print("There are ", total, "beans left.\n")
